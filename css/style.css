@@ -1,3 +1,21 @@
 body {
+    /* Con esto s ehace la imagen del fondo */
     background-image: url(../img/kanto-map.jpeg);
+    /*  */
+    background-position: center center;
+    /*  */
+    background-repeat: no-repeat;
+    /*  */
+    background-size: cover;
+    /*  */
+    background-attachment: fixed;
+}
+/* Para poder meter el titulo en el centro y meterle color a la letra */
+h1 {
+    text-align: center;
+    color: white;
+}
+/* Aqui para meterle color blanco a la "lista" */
+li {
+    color: white;
 }
