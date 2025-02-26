@@ -1,9 +1,13 @@
 body {
     /* Con esto s ehace la imagen del fondo */
-    background-image: url(/img/kanto-map.jpeg);
+    background-image: url(../img/kanto-map.jpeg);
+    /*  */
     background-position: center center;
+    /*  */
     background-repeat: no-repeat;
+    /*  */
     background-size: cover;
+    /*  */
     background-attachment: fixed;
 }
 /* Para poder meter el titulo en el centro y meterle color a la letra */
