@@ -1,15 +1,18 @@
-.pprincipal {
-    /* Con esto s ehace la imagen del fondo */
-    background-image: url(../img/kanto-map.jpeg);
-    /*  */
-    background-position: center center;
-    /*  */
-    background-repeat: no-repeat;
-    /*  */
-    background-size: cover;
-    /*  */
-    background-attachment: fixed;
-}
+.principal{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+     /* Con esto s ehace la imagen del fondo */
+     background-image: url(../img/kanto-map.jpeg);
+     /*  */
+     background-position: center center;
+     /*  */
+     background-repeat: no-repeat;
+     /*  */
+     background-size: cover;
+     /*  */
+     background-attachment: fixed;
+ }
 /* Para poder meter el titulo en el centro y meterle color a la letra */
 h1 {
     text-align: center;
@@ -18,4 +21,28 @@ h1 {
 /* Aqui para meterle color blanco a la "lista" */
 li {
     color: white;
+}
+.titulo1 {
+    text-align: center;
+    color: black;
+}
+.fuego {
+    background-color: #FFB300;
+    border-radius: 10px;
+    width: 9%;
+}
+.inicio {
+    text-align: center;
+    color: white;
+    padding: 10px 1% 10px 10px;
+    border-radius: 10px;
+    width: 9%;
+    margin-left: 43%;
+    background: red;
+}
+.cindaquil
+{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
 }
