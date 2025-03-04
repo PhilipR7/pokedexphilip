@@ -203,18 +203,3 @@ a{
     position: relative;
     margin-left: 2%;
 }
-.movimiento, .imagen-animada {
-    width: 2%;
-    animation: moverImagen 5s infinite alternate ease-in-out; /* Animación de 3 segundos, infinita, alterna y con curva ease-in-out */
-  }
-  @keyframes moverImagen {
-    0% {
-      transform: translateX(50px); /* Posición inicial */
-    }
-    50% {
-      transform: translateX(1450px); /* Punto medio de la animación */
-    }
-    100% {
-      transform: translateX(50px); /* Regresa a la posición inicial */
-    }
-  } 
