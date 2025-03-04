@@ -130,3 +130,76 @@ a{
     position: relative;
     margin-left: 2%;
 }
+.titulo3 {
+    text-align: center;
+    color:rgb(255, 51, 153)
+}
+.mew {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(../pokemons/mew/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.casillatexto2 {
+    width: 1435px; /* Ancho del cuadro */
+    height: 220px; /* Altura del cuadro */
+    background-color:rgb(255, 162, 213); /* Azul oscuro */
+    border: 8px solid rgb(255, 0, 162); /* Borde amarillo */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    position: relative;
+    margin-left: 2%;
+}
+.psíquico {
+    background-color: rgb(255, 51, 153);
+    border-radius: 5px;
+    width: 9%;
+    padding: 5px 10px;
+}
+.normal1 {
+    width: 250px;
+    height: 250px;
+    margin-right: 50px; /* Añade 50px de margen a la derecha */
+    margin-left: 650px;  /* Añade 25px de margen a la izquierda  */
+}
+.rayquaza {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(../pokemons/rayquaza/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.titulo4 {
+    text-align: center;
+    color:rgb(150, 200, 180)
+}
+.dragón {
+    background: linear-gradient(to bottom, #6CB4EE 50%, #F08080 50%);
+    border-radius: 5px;
+    width: 7%;
+    padding: 5px 10px;
+    margin-right: 1%;
+}
+.volador {
+    background: linear-gradient(to bottom, #87CEEB 50%, #D3D3D3 50%);
+    border-radius: 5px;
+    width: 8%;
+    padding: 5px 10px;
+}
+.casillatexto3 {
+    width: 1435px; /* Ancho del cuadro */
+    height: 220px; /* Altura del cuadro */
+    background-color:rgb(200, 230, 210); /* Azul oscuro */
+    border: 8px solid rgb(82, 176, 138); /* Borde amarillo */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    position: relative;
+    margin-left: 2%;
+}
