@@ -93,3 +93,40 @@ a{
     color: aliceblue;
     text-decoration: none;
 }
+.titulo2 {
+    text-align: center;
+    color:rgb(143, 39, 240)
+}
+.gengar{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(../pokemons/gengar/fondo2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fantasma {
+    background-color: rgb(156, 117, 185);
+    border-radius: 5px;
+    width: 9%;
+    padding: 5px 10px;
+    margin-right: 1%;
+}
+.veneno {
+    background-color: rgb(204, 153, 255);
+    border-radius: 5px;
+    width: 7%;
+    padding: 5px 10px;
+}
+.casillatexto1{
+    width: 1435px; /* Ancho del cuadro */
+    height: 220px; /* Altura del cuadro */
+    background-color:rgb(219, 184, 255); /* Azul oscuro */
+    border: 8px solid rgb(140, 0, 248); /* Borde amarillo */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    position: relative;
+    margin-left: 2%;
+}
