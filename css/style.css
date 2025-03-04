@@ -203,3 +203,41 @@ a{
     position: relative;
     margin-left: 2%;
 }
+/* ... Tu CSS existente ... */
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .pokedex {
+    width: 90%; /* Hace el título más ancho */
+    margin-left: 5%; /* Centra el título */
+    padding: 10px; /* Reduce el padding */
+    font-size: 1.5em; /* Reduce el tamaño de la fuente */
+  }
+
+  .lista {
+    display: block; /* Cambia la lista a bloque */
+    text-align: center; /* Centra los elementos de la lista */
+  }
+
+  .lista li {
+    margin: 10px 0; /* Añade margen a los elementos de la lista */
+  }
+
+  .normal, .normal1, .evolucion1, .evolucion2 {
+    width: 90%; /* Hace las imágenes ocupar el 90% del ancho */
+    height: auto; /* Ajusta la altura automáticamente */
+    margin: 10px auto; /* Centra las imágenes */
+    display: block; /* Hace las imagenes comportarse como bloque */
+  }
+  .casillatexto, .casillatexto1, .casillatexto2, .casillatexto3{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/* Estilos para pantallas muy pequeñas (móviles pequeños) */
+@media (max-width: 480px) {
+  .pokedex {
+    font-size: 1.2em; /* Reduce aún más el tamaño de la fuente */
+  }
+}
