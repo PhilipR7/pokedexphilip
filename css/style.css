@@ -24,12 +24,13 @@ li {
 }
 .titulo1 {
     text-align: center;
-    color: black;
+    color:rgb(240, 109, 39)
 }
 .fuego {
-    background-color: #FFB300;
-    border-radius: 10px;
-    width: 9%;
+    background-color: rgb(240, 109, 39);
+    border-radius: 5px;
+    width: 6%;
+    padding: 5px 10px;
 }
 .inicio {
     text-align: center;
@@ -45,4 +46,41 @@ li {
     font-family: "Press Start 2P", serif;
     font-weight: 400;
     font-style: normal;
+    background-image: url(../pokemons/cindaquil/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.normal {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px; /* Añade 50px de margen a la derecha */
+    margin-left: 5%;  /* Añade 25px de margen a la izquierda  */
+}
+.evolucion1 {
+    width: 350px;
+    height: 300px;
+    margin-left: 250px; /* Añade 25px de margen a la izquierda */
+    margin-right: 180px; /* Añade 25px de margen a la derecha */
+}
+.evolucion2 {
+    width: 350px;
+    height: 300px;
+}
+.casillatexto{
+    width: 1435px; /* Ancho del cuadro */
+    height: 220px; /* Altura del cuadro */
+    background-color:rgb(250, 237, 118); /* Azul oscuro */
+    border: 8px solid rgb(240, 109, 39); /* Borde amarillo */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    position: relative;
+    margin-left: 2%;
+}
+.ladotexto,.texto {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 1%;
 }
