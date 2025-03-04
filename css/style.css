@@ -2,46 +2,46 @@
     font-family: "Press Start 2P", serif;
     font-weight: 400;
     font-style: normal;
-     /* Con esto s ehace la imagen del fondo */
+     /* Con esto se hace la imagen del fondo */
      background-image: url(../img/kanto-map.jpeg);
-     /*  */
+     /* Centra la imagen horizontal y verticalmente */
      background-position: center center;
-     /*  */
+     /* Evita que la imagen se repita */
      background-repeat: no-repeat;
-     /*  */
+     /* Ajusta la imagen para cubrir todo el contenedor */
      background-size: cover;
-     /*  */
+     /* Fija la imagen de fondo para que no se desplace con el contenido */
      background-attachment: fixed;
  }
 /* Para poder meter el titulo en el centro y meterle color a la letra */
 .pokedex {
-    text-align: center;
-    color: white;
-    padding: 10px 80px 10px 10px;
-    border-radius: 10px;
-    width: 10%;
-    margin-left: 40%;
-    background: rgba(5,7, 12, 0.50);
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Color del texto: blanco */
+    padding: 10px 80px 10px 10px; /* Espaciado interno: 10px arriba/abajo, 80px derecha, 10px izquierda */
+    border-radius: 10px; /* Bordes redondeados con un radio de 10px */
+    width: 10%; /* Ancho del elemento: 10% del contenedor padre */
+    margin-left: 40%; /* Margen izquierdo: 40% del contenedor padre (para centrar horizontalmente) */
+    background: rgba(5, 7, 12, 0.50); /* Fondo semi-transparente con color rgba */ 
 }
 /* Aqui para meterle color blanco a la "lista" */
 .titulo1 {
-    text-align: center;
-    color:rgb(240, 109, 39)
+    text-align: center; /* Centra el texto horizontalmente */
+    color: rgb(240, 109, 39); /* Color del texto: naranja (rgb) */
 }
 .fuego {
-    background-color: rgb(240, 109, 39);
-    border-radius: 5px;
-    width: 6%;
-    padding: 5px 10px;
+    background-color: rgb(240, 109, 39); /* Color de fondo */
+    border-radius: 5px; /* Bordes redondeados con un radio de 5px */
+    width: 6%; /* Ancho del elemento: 6% del contenedor padre */
+    padding: 5px 10px; /* Espaciado interno: 5px arriba/abajo, 10px izquierda/derecha */
 }
 .inicio {
-    text-align: center;
-    color: white;
-    padding: 10px 1% 10px 10px;
-    border-radius: 10px;
-    width: 9%;
-    margin-left: 43%;
-    background: red;
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Color del texto: blanco */
+    padding: 10px 1% 10px 10px; /* Espaciado interno: 10px arriba/abajo, 1% derecha, 10px izquierda */
+    border-radius: 10px; /* Bordes redondeados con un radio de 10px */
+    width: 9%; /* Ancho del elemento: 9% del contenedor padre */
+    margin-left: 43%; /* Margen izquierdo: 43% del contenedor padre (para centrar horizontalmente) */
+    background: red; /* Color de fondo: rojo */
 }
 .cindaquil
 {
@@ -73,18 +73,18 @@
 .casillatexto{
     width: 1435px; /* Ancho del cuadro */
     height: 220px; /* Altura del cuadro */
-    background-color:rgb(250, 237, 118); /* Azul oscuro */
-    border: 8px solid rgb(240, 109, 39); /* Borde amarillo */
+    background-color:rgb(250, 237, 118); /* Amarillo */
+    border: 8px solid rgb(240, 109, 39); /* Borde naranja */
     border-radius: 15px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
     position: relative;
     margin-left: 2%;
 }
 .ladotexto,.texto {
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin-left: 1%;
+    display: flex; /* Define el elemento como un contenedor flexible */
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro */
+    position: relative; /* Permite posicionar elementos hijos de forma absoluta */
+    margin-left: 1%; /* Margen izquierdo: 1% del contenedor padre */
 }
 .lista {
     color: black;
